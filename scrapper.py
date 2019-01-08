@@ -17,7 +17,7 @@ chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-setuid-sandbox")
 driver = webdriver.Chrome(chrome_options=chrome_options)
 
-con = mysql.connector.connect(user='carsales_user',password='Jatipadang13',host='103.253.146.240',database='api',port='3306')
+con = mysql.connector.connect(#hidden#)
 
 cursor = con.cursor()
 
